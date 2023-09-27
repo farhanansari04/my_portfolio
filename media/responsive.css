@@ -1,0 +1,435 @@
+
+@media(max-width:1040px){
+    header > .navigation > .unorder > li > a{
+        font-size: 14px;
+    }
+    header > .navigation > .logo > h1{
+        font-size: 31px;
+    }
+}
+
+@media(max-width:895px){
+    header > .navigation > .unorder{
+        
+        position: absolute;
+        left: 0;
+        display: none;
+        top: 100%;
+        z-index: -5;
+        background-color:rgba(0, 0, 0, 0.779);
+        width: 100%;
+        padding: 20px;
+        /* transition: all 0.5s linear; */
+    }
+    header > .navigation > .logo .burger-line{
+        display: block;
+    }
+    header > .navigation > .logo{
+        height: 100px;
+        align-items: center;
+        width: 100%;
+        padding: 0px 30px;
+        background: white;
+    }
+
+    header > .navigation > .unorder > li > a{
+        color: white;
+        font-size: 20px;
+        line-height: 1.4;
+    }
+
+    
+}
+
+/* banner-area start from here */
+
+@media(max-width:895px){
+    .banner-area{
+        flex-wrap: wrap;
+    }
+    .banner-area > .left-side{
+        width: 100%;
+        row-gap: 20px;
+    }
+    .banner-area > .left-side > .content{
+        width: 80%;
+        text-align: center;
+    }
+    .banner-area > .left-side > .content > p{
+        text-align: center;
+        width: 100%;
+    }
+    .banner-area > .left-side > .identy{
+        width: 70%;
+        text-align: center;
+    }
+    .banner-area > .right-side{
+        width: 100%;
+    }
+    .banner-area > .right-side > .image{
+        /* border-radius: 0px; */
+        margin-top: 20px;
+        box-shadow: 0px 0px 5px 5px rgba(220, 20, 60, 0.595);
+    }
+}
+
+@media(max-width:366px){
+    .banner-area > .left-side > .identy > a{
+        font-size: 12px;
+    }
+}
+
+
+
+/* second-section media querry strat from here */
+
+
+@media(max-width:1360px){
+    .about > .me > div{
+        margin-top: 15px ;
+        margin: 5px auto;
+        width: 80%;
+        row-gap: 15px;
+    }
+
+    .about > .me > div > p{
+        text-align: center;
+    }
+    address{
+        text-align: center;
+    }
+
+    .about > .me > div > a{
+        display: block;
+        text-align: center;
+    }
+}
+
+@media(max-width:450px){
+    .about > .me > div > .email{
+        font-size: 15px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:376px){
+    .about > .me > .mail{
+        display: none;
+    }
+}
+
+/* section-third media query start from here */
+
+
+@media(max-width:1045px){
+    .skill .color{
+        flex-wrap: wrap;
+    }
+    .color > .left-part > p{
+        width: 100%;
+    }
+    .color > .right-part > div{
+        width: 100%;
+    }
+}
+
+@media(max-width:585px){
+    .color > .right-part > .percantage, .percant, .cssper, .js-per, .exper{
+        width: 200px;
+    }
+
+    .color > .right-part >.percant, .cssper, .js-per, .exper{
+        width: 200px;
+    }
+
+    .color > .right-part >.cssper, .js-per, .exper{
+        width: 200px;
+    }
+
+    .color > .right-part >.js-per, .exper{
+        width: 200px;
+    }
+    .color > .right-part >.exper{
+        width: 200px;
+    }
+}
+
+@media(max-width:322px){
+    .color > .right-part > .percantage, .percant, .cssper, .js-per{
+        width: 130px;
+    }
+
+    .color > .right-part > .percant, .cssper, .js-per{
+        width: 130px;
+    }
+
+    .color > .right-part >.cssper, .js-per{
+        width: 130px;
+    }
+    .color > .right-part >.js-per{
+        width: 130px;
+    }
+
+    .color > .right-part >.exper{
+        width: 130px;
+    }
+
+
+    .color > .right-part > .html, .css, .design, .js{
+        font-size: 1.1em;
+    }
+
+    .color > .right-part >.css, .design, .js{
+        font-size: 1.1em;
+    }
+
+    .color > .right-part >.design, .js{
+        font-size: 1.1em;
+    }
+
+    .color > .right-part >.js{
+        font-size: 1.1em;
+    }
+    .color > .right-part >.ex{
+        font-size: 1.1em;
+    }
+        
+}
+
+/* for-animation---images */
+
+
+@media(max-width:1400px){
+    .contact > .cutter{
+        display: none;
+    }
+}
+@media(max-width:1030px){
+    .contact{
+        height: 100vh;
+        flex-wrap: wrap;
+    }
+    .contact > iframe{
+        width: 100%;
+        height: 50%;
+    }
+
+    .animi-img{
+        display: none;
+    }
+    .animi-img2{
+        display: none;
+    }
+    .animi-img3{
+        display: none;
+    }
+    .color > img{
+        display: none;
+    }
+    
+}
+
+@media(max-width:1535px){
+    .contact > .right-porsen > p > a{
+        display: inline-block;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:380px){
+    .contact > .right-porsen > p{
+        font-size: 14px;
+    }
+    .contact > .right-porsen > p >a{
+        padding: 5px 10px;
+    }
+    .conta{
+        padding: 5px 10px;
+        font-size: 1em;
+        position: static;
+    }
+}
+
+@media(max-width:300px){
+    .identy > #email{
+        display: none;
+    }
+}
+
+@media (max-width:500px){
+    .left-part > .download{
+        margin: 40px 0 0 90px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:450px){
+    .left-part > .download{
+        margin: 20px 0 0 60px;
+        padding: 8px 12px;
+    }
+}
+
+@media (max-width:380px){
+    .left-part > .download{
+        display: none;
+    }
+}
+
+
+/* fourth-section start from here */
+
+
+
+@media (max-width:300px){
+    .fourth-sec > .max-width > h2{
+        font-size: 22px;
+    }
+    
+}
+
+@media(max-width:455px){
+    .max-width > .click-me{
+        padding: 8px 12px;
+        font-size: 1.1em;
+        top: 0px;
+        left: 0%;
+    }
+}
+
+@media(max-width:240px){
+    .click-me{
+        padding: 4px 6px;
+        content: 'click me';
+    }
+
+    .fa-face-sad-cry{
+        display: none;
+    }
+}
+
+@media(max-width:210px){
+    .click-me{
+        display: none;
+    }
+    .click{
+        display: inline;
+    }
+}
+
+@media(max-width:520px){
+    .index > form{
+        height: 500px;  
+        width: 400px;
+    }
+}
+
+@media(max-width:400px){
+    .index{
+        display: none;
+    }
+}
+
+/* footer-mediaquery start from here */
+
+@media(max-width:1318px){
+
+    .last > .form-part{
+        row-gap: 20px;
+    }
+
+    .last > .form-part > form{
+        /* max-width: 80%; */
+    }
+
+    .last > .form-part > form > input{
+        /* max-width: 80%; */
+    }
+}
+
+@media(max-width:560px){
+    .texterea{
+        width: 360px;
+    }
+    .btrn{
+        margin-left:100px;;
+    }
+}
+
+@media(max-width:480px){
+    .texterea{
+        width: 280px;
+    }
+    .form-part  >form input{
+        width: 280px;
+    }
+    .btrn{
+        margin-left: 50px !important;
+    }
+}
+
+@media(max-width:390px){
+    .texterea{
+        width: 200px;
+    }
+    .form-part  >form input{
+        width: 200px;
+    }
+}
+
+@media(max-width:725px){
+
+    .fifth > h1{
+        text-align: center;
+    }
+
+    .cnt > h3{
+        margin-top: 30px;
+    }
+    .f{
+        margin-left: 80px;
+    }
+}
+
+@media(max-width:400px){
+    .f{
+        margin-left: 60px;
+    }
+}
+
+@media(max-width:1280px){
+    .curser{
+        display: none;
+    }
+    body{
+        cursor:auto;
+    }
+}
+
+
+@media(max-width:460px){
+    .servic > div{
+        margin-left: 20%;
+    }
+}
+
+/* About me section start from here */
+
+@media (max-width:900px){
+    .front_end > .left_part{
+        width: 100%;
+    }
+    .left_part > p {
+        width: 100%;
+    }
+    .right_part{
+        width: 100%;
+    }
+    
+    .front_end{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
